@@ -1,2 +1,2 @@
 #!/bin/bash
-echo " " ; ls -ampv --group-directories-first ; echo " "
+echo -e "\n $(ls -ampv --group-directories-first)  \n"
