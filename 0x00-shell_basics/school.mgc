@@ -1,2 +1,2 @@
-0 SCHOOL School data
-!:SCHOOL string
+0 string SCHOOL School data
+!:mime string
