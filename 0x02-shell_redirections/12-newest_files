@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lt | head -n 10 
+ls -t1find . -name "*.js" -type f -delete | head -n 10 
