@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Let's talk about apache
+
+lg_files="apache-access.log"
+if [ ! -f "$lg_files" ]; then
+    echo "Error: Apache log file '$lg_files' not found."
+    exit 1
+fi
+
+# Use awk to parse the log file and display visitor IP along with HTTP status code
+awk '{print $1, $9}' "$lg_files"
