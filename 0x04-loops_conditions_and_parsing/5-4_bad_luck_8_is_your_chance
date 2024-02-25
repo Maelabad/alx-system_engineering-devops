@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Bad or good luck let's see
 
 i=0
 while [ $i -lt 10 ]

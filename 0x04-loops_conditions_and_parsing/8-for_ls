@@ -1,5 +1,6 @@
-#!/bin/bash
-# Display all(without the hiddens)
+#!/usr/bin/env bash
+# Display all(without the hiddens) kind of ls commands
+
 for file in *
 do
     if [ -f "$file" ] && [[ "$file" == *-* ]]; then
