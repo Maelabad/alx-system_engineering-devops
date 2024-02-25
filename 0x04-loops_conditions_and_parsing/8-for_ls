@@ -1,0 +1,8 @@
+#!/bin/bash
+# Display all(without the hiddens)
+for file in *
+do
+    if [ -f "$file" ] && [[ "$file" == *-* ]]; then
+        echo "${file#*-}"
+    fi
+done
