@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Give the pid of the programme
+echo "$$"

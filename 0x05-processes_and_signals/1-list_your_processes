@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# list the process
+
+# Header
+echo "USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND"
+
+# Display processes with hierarchy
+ps axo user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command --forest
