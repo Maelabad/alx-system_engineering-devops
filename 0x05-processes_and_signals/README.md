@@ -42,7 +42,6 @@ Requirements:
 
 3. Show your Bash PID made easy
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a Bash script that displays the PID, along with the process name, of processes whose name contain the word bash.
 
@@ -57,7 +56,6 @@ Requirements:
 
 4. To infinity and beyond
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a Bash script that displays To infinity and beyond indefinitely.
 
@@ -71,7 +69,6 @@ Requirements:
 
 5. Don't stop me now!
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 We stopped our 4-to_infinity_and_beyond process using ctrl+c in the previous task, there is actually another way to do this.
 
@@ -88,7 +85,6 @@ Terminal #0
 
 6. Stop me if you can
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a Bash script that stops 4-to_infinity_and_beyond process.
 
@@ -104,7 +100,6 @@ Terminal #0
 
 7. Highlander
 mandatory
-Score: 0.0% (Checks completed: 0.0%)
 
 Write a Bash script that displays:
 
